@@ -1,0 +1,22 @@
+mac address : 0001.1111.1111
+
+ip address : 10.1.1.1
+
+subnet mask : 255.255.255.0
+
+-----------------------------------------------------------
+
+C:\>ping 10.1.1.2
+
+Pinging 10.1.1.2 with 32 bytes of data:
+
+Reply from 10.1.1.2: bytes=32 time<1ms TTL=128
+Reply from 10.1.1.2: bytes=32 time<1ms TTL=128
+Reply from 10.1.1.2: bytes=32 time<1ms TTL=128
+Reply from 10.1.1.2: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.1.1.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+------------------------------------------------------------
